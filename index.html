@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+ <script>
+ // Your web app's Firebase configuration
+ var firebaseConfig = {
+   apiKey: "AIzaSyBYM4t3uq_TM3zEbplMFW2o3E48nX2e6bg",
+   authDomain: "synchronous-drawing.firebaseapp.com",
+   databaseURL: "https://synchronous-drawing.firebaseio.com",
+   projectId: "synchronous-drawing",
+   storageBucket: "synchronous-drawing.appspot.com",
+   messagingSenderId: "623809751813",
+   appId: "1:623809751813:web:b469745e103a620ca1e56c"
+ };
+ // Initialize Firebase
+ firebase.initializeApp(firebaseConfig);
+</script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <div id = "canvascontainer"></div>
+    
+    <script src="sketch.js"></script>
+    <p>
+      <button id = "clearButton">clear</button>
+    </p>
+    
+    <!-- <p>
+      <ol id = "drawinglist">
+        
+      </ol>
+    </p> -->
+
+
+  </body>
+</html>
