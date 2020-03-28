@@ -1,2 +1,3 @@
-# asynchronousBallMovement
-Boiler plate for ball moving aysnchronously
+# Canvas
+A canvas to draw and clear
+
